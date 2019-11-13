@@ -1,6 +1,6 @@
 {
   "name": "window-button-layout",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "RetrieveRetrieve OS window buttons layout (close, maximize, minimize...)",
   "keywords": ["window", "button layout"],
   "license": "MIT",
