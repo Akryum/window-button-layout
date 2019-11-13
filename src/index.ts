@@ -46,7 +46,7 @@ export function getWindowButtonLayout (): WindowButtonLayout {
     return DEFAULT_LAYOUT_MACOS
   } else if (platform === 'linux') {
     // KDE
-    if (process.env.GDMSESSION.startsWith('kde') || process.env.XDG_CURRENT_DESKTOP === 'KDE') {
+    if (process.env.XDG_CURRENT_DESKTOP === 'KDE' || (process.env.GDMSESSION && process.env.GDMSESSION.startsWith('kde'))) {
       return getKDEButtons()
     }
     // ElementaryOS
