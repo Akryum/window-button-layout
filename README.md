@@ -53,3 +53,7 @@ interface WindowButtonLayout {
 ```
 
 Unkown buttons (that are not in the `WindowButton` enum) will be ignored.
+
+## Sponsors
+
+[![sponsors logos](https://guillaume-chau.info/sponsors.png)](https://guillaume-chau.info/sponsors)
